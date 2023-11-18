@@ -45,7 +45,7 @@ print(f"\n{n_fisrt} dòng đầu tiên trong file:\n")
 print("\n".join(first_n_lines))
 
 
-# # Nối chuỗi vào cuối tập tin
+#  Nối chuỗi vào cuối tập tin
 # string_to_append = "\nChuỗi được nối vào cuối file."
 # append_string_to_file(file_name, string_to_append)
 
@@ -101,7 +101,7 @@ def main():
     show = input("Bạn có muốn xem thêm nội dung ? \n(Nhập 'yes' hoặc 'no'): ")
     if show.lower() == 'yes':
         # Tên file văn bản
-        file_name = "duy_file.txt"
+        file_name = "duy_test_file.txt"
 
         # Đọc số dòng trong file
         with open(file_name, 'r', encoding='utf-8') as file:
