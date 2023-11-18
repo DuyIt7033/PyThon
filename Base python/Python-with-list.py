@@ -66,10 +66,10 @@ def remove_element(arr):
         
     return arr
 
-# # Gộp hai mảng
+#  Gộp hai mảng
 # result_array = merge_arrays(my_list, my_list_1)
 
-# # In kết quả
+# In kết quả
 # print("Mảng sau khi gộp:", result_array)
 
 
